@@ -1,0 +1,55 @@
+*{
+    font-family: Helvetica;
+}
+html{
+    background-color: bisque;
+}
+h1{
+    position: relative;
+    left: 500px;
+    text-align: center;
+    display: inline-block;
+    font-style: italic;
+    border: 2px solid gray;
+    border-radius: 20px 30px;
+}
+th, td{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+table{
+    width: 80%;
+    margin: 40px 40px;
+}
+
+.position-table{
+    color: white;
+}
+.position-table thead{
+    background-color: rgb(27, 37, 227);
+    margin-bottom: 20px;
+}
+.position-table td{
+    background-color:rgb(95, 104, 226);
+    text-align: center;
+}
+.display-table thead{
+    background-color: rgb(227, 27, 30);
+}
+.display-table td{
+    background-color:rgb(239, 129, 130);
+    text-align: center;
+}
+.short-head{
+    width: 20%;
+    font-style: italic;
+    font-size: 32px;
+}
+.subject{
+    text-align: center;
+    font-weight: 600;
+}
+.descrpition{
+    text-align: center;
+    margin: auto;
+}
